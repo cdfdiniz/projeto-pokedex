@@ -1,8 +1,8 @@
 const nomePokemon = document.querySelector('.nome-pokemon');
-const numPokemon = document.querySelector('numero-pokemon');
+const numPokemon = document.querySelector('.numero-pokemon');
 const gifPokemon = document.querySelector('.pokemon-image');
-const tipoPokemon = document.querySelector('tipo-pokemon');
-const form = document.querySelector('form');
+const tipoPokemon = document.querySelector('.tipo-pokemon');
+const form = document.querySelector('.form');
 const inputSearch = document.querySelector('input_search');
 const botao_prev = document.querySelector('.botao-prev');
 const botao_next = document.querySelector('.botao-next');
@@ -29,8 +29,8 @@ const renderizarPokemon = async(pokemon) => {
         gifPokemon.style.display = 'block'
         nomePokemon.innerHTML = dados.name;
         numPokemon.innerHTML = dados.id;
-        tipoPokemon.innerHTML = dados.type.map(typeInfo => typeInfo.type.name)
-        gifPokemon.src = dados['sprites']['front-default']
+        tipoPokemon.innerHTML = dados.types.map(typeInfo => typeInfo.type.name)
+        gifPokemon.src = dados['sprites']['front_default']
 
         input.value = '';
         searchPokemon = dados.id
@@ -45,7 +45,7 @@ const renderizarPokemon = async(pokemon) => {
 
 form.addEventListener('submit', (event) => {
     event.preventDefault();
-    renderizarPokemon(input_search.value.toLowerCase());
+    renderizarPokemon(inputSearch.value.toLowerCase());
 })
 
 botao_prev.addEventListener('click', (event) => {

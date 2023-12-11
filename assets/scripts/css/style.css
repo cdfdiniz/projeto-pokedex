@@ -38,10 +38,18 @@ main {
 
 .pokemon-image {
     position: absolute;
-    bottom: 55%;
+    bottom: 70%;
     left: 51%;
     transform: translate(-63%, 20%);
     height: 23%;
+}
+
+.tipo-pokemon {
+    color: #aaa;
+    text-transform: captalize;
+    position: absolute;
+    bottom: 65%;
+    left: 44%;
 }
 
 .pokemon-dados {
@@ -60,6 +68,15 @@ main {
     bottom: 35%;
     left: 35%;
 }
+
+.numero-pokemon {
+    color: #3a444d;
+    text-transform: captalize;
+    position: absolute;
+    bottom: 40%;
+    left: 35%;
+}
+
 
 .form {
     position: absolute;
@@ -113,8 +130,10 @@ main {
     position: absolute;
 }
 
+
 footer {
     position: absolute;
+    color: #3a444d;
     margin-left: 42%;
     bottom: 20%;
     font-weight: 700;
