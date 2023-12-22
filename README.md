@@ -6,9 +6,10 @@
 
 ### Reprodução:
 
-<div style="display:inline-block;margin:15px; padding:5px; border: 2px solid white;border-style: dotted;">
+<div style="display:inline-block; margin:15px; padding:5px;">
 
-<img src="/src/img/pokeAPI.gif" alt="GIF demosntração do projeto" style="width:700px;max-width:100%">
+<img align="center" src="/src/img/pokeAPI.gif" alt="GIF demosntração do projeto" style="width:800px;max-width:100%;">
+
 
 </div>
 
