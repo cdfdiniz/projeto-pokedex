@@ -1,10 +1,12 @@
-# <em>Poké</em>API <img src="/src/favicons/favicon-16x16.png" alt="icon pokebola">
+# <em>Poké</em>API <img src="/src/favicons/favicon-16x16.png" alt="icon pokebola" style="width:35px;max-width:100%">
 
-## Trabalho Proposto Senac-Rs de Interface Frontend com PokeAPI REST
+## Trabalho Senac-Rs
+
+### Interface Frontend com PokeAPI REST
 
 ### Reprodução:
 
-<div style="display:inline-block;margin:5px; padding:5px; border-style: dotted;">
+<div style="display:inline-block;margin:15px; padding:5px; border-style: dotted;">
 
 <img src="/src/img/pokeAPI.gif" alt="GIF demosntração do projeto">
 
@@ -13,7 +15,7 @@
 ### Trabalho desenvolvido em duplas:
 ## Colaboradores:
 
-<div style="display:flex;margin:5px;padding:5px;">
+<div style="display:flex;margin-right:15px;padding:5px;">
 
 <a href="https://github.com/cdfdiniz"><img src="/src/img/carla-git.jpg" alt="Imagem perfil carla" style="width:100px;max-width:100%"></a>
 <a href="https://github.com/cdfdiniz"><img src="/src/img/thiago-git.jpg" alt="Imagem perfil thiago" style="width:100px;max-width:100%"></a>
@@ -28,52 +30,52 @@ e Javascript, com a opção de incorporar Bootstrap e outras bibliotecas conform
 necessário.
 Requisitos:
 1. Página principal:
-● Apresentar uma lista de pokémons, exibindo pelo menos nome e imagem.
-● Permitir navegação para a página de detalhes de cada Pokémon.
+    - Apresentar uma lista de pokémons, exibindo pelo menos nome e imagem.
+    - Permitir navegação para a página de detalhes de cada Pokémon.
 2. Detalhes do Pokémon:
-● Exibir informações mais detalhadas sobre um Pokémon específico, como
+    - Exibir informações mais detalhadas sobre um Pokémon específico, como
 tipo, habilidades, estatísticas, etc.
-● Incluir navegação fácil para retornar à listagem principal, e ir para o próximo
+    - Incluir navegação fácil para retornar à listagem principal, e ir para o próximo
 pokémon ou voltar para o pokémon anterior.
 3. Pesquisa:
-● Implementar uma funcionalidade de pesquisa que permita aos usuários
+    - Implementar uma funcionalidade de pesquisa que permita aos usuários
 encontrar Pokémons específicos por nome ou número.
 4. Responsividade:
-● Garantir que a aplicação seja responsiva para proporcionar uma experiência
+    - Garantir que a aplicação seja responsiva para proporcionar uma experiência
 consistente em dispositivos de diferentes tamanhos.
 5. Estilo e Design:
-● Utilizar CSS para estilizar a aplicação de forma atraente e amigável.
+    - Utilizar CSS para estilizar a aplicação de forma atraente e amigável.
 6. Integração com PokeAPI:
-● Utilizar requisições AJAX ou Fetch API em Javascript para interagir com a
+    - Utilizar requisições AJAX ou Fetch API em Javascript para interagir com a
 PokeAPI e obter dados dinâmicos.
 7. Melhorias Opcionais:
-● Implementar funcionalidades adicionais como ordenação da lista, filtros, por
+    - Implementar funcionalidades adicionais como ordenação da lista, filtros, por
 tipo de Pokémon, ou qualquer outra melhoria que considere relevante.
 8. Criação de Wireframes (Opcional):
-● Criar wireframes de alta fidelidade para expressar ideias de forma visual e
+    - Criar wireframes de alta fidelidade para expressar ideias de forma visual e
 facilitar na codificação da aplicação.
-● O Wireframe, se criado, deve ser anexado ao projeto ou por link no readme
+    - O Wireframe, se criado, deve ser anexado ao projeto ou por link no readme
 ou arquivos em uma pasta chamada “docs”
-Observações:
-● O Trabalho será em dupla, porém haverá um trio (escolhido pelo professor).
-● O uso de Bootstrap e outras bibliotecas é permitido para facilitar o desenvolvimento
+9. Observações:
+    - O Trabalho será em dupla, porém haverá um trio (escolhido pelo professor).
+    - O uso de Bootstrap e outras bibliotecas é permitido para facilitar o desenvolvimento
 e melhorar a experiência do usuário.
-● O código deve ser organizado e bem comentado
-● O HTML deve ser o mais semântico possível
-● O trabalho será avaliado quanto à funcionalidade, design, usabilidade e boas
+    - O código deve ser organizado e bem comentado
+    - O HTML deve ser o mais semântico possível
+    - O trabalho será avaliado quanto à funcionalidade, design, usabilidade e boas
 práticas de programação.
-Entrega:
-● O trabalho deve ser entregue em um repositório Git, incluindo o código-fonte,
+10. Entrega:
+    - O trabalho deve ser entregue em um repositório Git, incluindo o código-fonte,
 arquivos necessários, este arquivo de enunciado, e um arquivo README,
 explicando como executar a aplicação e quaisquer instruções adicionais que forem
 necessárias.
-● Data para entrega: 22/12/2023
-Links úteis:
-● PokeAPI: https://pokeapi.co/
-● Usando PokeAPI com fetch API do Javascript - parte 01:
+    - Data para entrega: 22/12/2023
+11. Links úteis:
+    - PokeAPI: https://pokeapi.co/
+    - Usando PokeAPI com fetch API do Javascript  - parte 01:
 https://www.youtube.com/watch?v=X5fMPdnd3tw
-● Usando PokeAPI com fetch API do Javascript - parte 02:
+    - Usando PokeAPI com fetch API do Javascript - parte 02:
 https://www.youtube.com/watch?v=NveAE0D0bWo
-● Como pegar as imagens dos pokemons:
+    - Como pegar as imagens dos pokemons:
 https://stackoverflow.com/questions/69239521/unable-to-display-pokemon-ima
 ge-from-pokeapi-co
