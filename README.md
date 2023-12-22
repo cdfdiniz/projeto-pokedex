@@ -1,4 +1,4 @@
-# <em>Poké</em>API <img src="/src/favicons/favicon-16x16.png" alt="icon pokebola" style="width:35px;max-width:100%">
+# <em>Poké</em>API <img src="/src/favicons/favicon-16x16.png" alt="icon pokebola" style="width:30px;max-width:100%">
 
 ## Trabalho Senac-Rs
 
@@ -6,19 +6,19 @@
 
 ### Reprodução:
 
-<div style="display:inline-block;margin:15px; padding:5px; border-style: dotted;">
+<div style="display:inline-block;margin:15px; padding:5px; border: 2px solid white;border-style: dotted;">
 
-<img src="/src/img/pokeAPI.gif" alt="GIF demosntração do projeto">
+<img src="/src/img/pokeAPI.gif" alt="GIF demosntração do projeto" style="width:700px;max-width:100%">
 
 </div>
 
 ### Trabalho desenvolvido em duplas:
 ## Colaboradores:
 
-<div style="display:flex;margin-right:15px;padding:5px;">
+<div style="display:flex; margin-right:15px; padding:5px;align-items: center; justify-content: center;">
 
-<a href="https://github.com/cdfdiniz"><img src="/src/img/carla-git.jpg" alt="Imagem perfil carla" style="width:100px;max-width:100%"></a>
-<a href="https://github.com/cdfdiniz"><img src="/src/img/thiago-git.jpg" alt="Imagem perfil thiago" style="width:100px;max-width:100%"></a>
+<a href="https://github.com/cdfdiniz"><img src="/src/img/carla-git.jpg" alt="Imagem perfil carla" style="width:150px;max-width:100%;"></a>
+<a href="https://github.com/cdfdiniz"><img src="/src/img/thiago-git.jpg" alt="Imagem perfil thiago" style="width:150px;max-width:100%"></a>
 
 </div>
 
