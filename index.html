@@ -8,29 +8,34 @@
     <link rel="stylesheet" href="./assets/scripts/css/style.css">
 </head>
 <body>
-    <main>
-        <img src="" class="pokemon-image" alt="Pokemon">
 
-        <h1 class="dados-pokemon">
-            <span class="numero-pokemon"></span>
-            <span class="nome-pokemon"></span>
-        </h1>
-        <form action="" class="form">
-            <input type="search" class="input_search" placeholder="Nome ou ID" required>
-        </form>
-        <p class="tipo-pokemon"></p>
+    <main class="container">
+        
+        <div class="first">
+            <img src="" class="pokemon-image" alt="Pokemon">
+            <p class="tipo-pokemon"></p>
 
+        </div>
+        <div class="second">
+            <h1 class="dados-pokemon not-found">
+                <span class="numero-pokemon"></span>
+                <span class="nome-pokemon"></span>
+            </h1>
+            <form action="" class="form">
+                <input type="search" class="input_search" placeholder="Nome ou ID" required>
+            </form>
+        </div>     
+        
         <div class="buttons">
             <button class="botao botao-prev">Previous</button>
             <button class="botao botao-next">Next</button>
         </div>
-        <img src="./assets/img/pokedex.png" alt="Imagem de uma Pokedex">
+        <img src="./assets/img/pokedex.png" class="pokedex-img" alt="Imagem de uma Pokedex">
 
     </main>
     <script defer src="./assets/scripts/js/script.js"></script>
-    <footer>© Desenvolvido por Carla e Thiago
-      
-        <!-- Colocar nossos github aqui -->
+    <footer class="fw-bold fs-4 fixed-bottom container">
+        © Desenvolvido por <em>Carla</em> e <em>Thiago</em>
     </footer>
 </body>
 </html>
