@@ -6,17 +6,17 @@
 
 <div style="display:inline-block;margin:5px; padding:5px; border-style: dotted;">
 
-    <img src="/src/img/pokeAPI.gif" alt="GIF demosntração do projeto">
+<img src="/src/img/pokeAPI.gif" alt="GIF demosntração do projeto">
 
 </div>
 
 ### Trabalho desenvolvido em duplas:
 ## Colaboradores:
 
-<div style="display:flex; margin:5px; padding:5px;">
+<div style="display:flex;margin:5px;padding:5px;">
 
-<a href="https://github.com/cdfdiniz"><img src="/src/img/carla-git.jpg" alt="Imagem perfil carla"></a>
-<a href="https://github.com/cdfdiniz"><img src="/src/img/thiago-git.jpg" alt="Imagem perfil thiago"></a>
+<a href="https://github.com/cdfdiniz"><img src="/src/img/carla-git.jpg" alt="Imagem perfil carla" style="width:100px;max-width:100%"></a>
+<a href="https://github.com/cdfdiniz"><img src="/src/img/thiago-git.jpg" alt="Imagem perfil thiago" style="width:100px;max-width:100%"></a>
 
 </div>
 
