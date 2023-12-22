@@ -27,9 +27,9 @@ const renderizarPokemon = async(pokemon) => {
 
     if(dados){
         gifPokemon.style.display = 'block'
-        nomePokemon.innerHTML = dados.name;
-        numPokemon.innerHTML = dados.id;
-        tipoPokemon.innerHTML = dados.types.map(typeInfo => typeInfo.type.name);
+        nomePokemon.innerHTML = `Name: ${dados.name}`;
+        numPokemon.innerHTML = `Nº: ${dados.id}`;
+        tipoPokemon.innerHTML = `Type: ${dados.types.map(typeInfo => typeInfo.type.name)}`;
         gifPokemon.src = dados['sprites']['versions']['generation-v']['black-white']['animated']['front_default'];
         inputSearch.value = '';
         searchPokemon = dados.id
@@ -51,8 +51,8 @@ form.addEventListener('submit', (event) => {
 
 botao_prev.addEventListener('click', (event) => {
     if(searchPokemon > 1){
-        searchPokemon -= 1;
-        renderizarPokemon(searchPokemon)
+      searchPokemon -= 1;
+        renderizarPokemon( searchPokemon)
     }
 })
 
